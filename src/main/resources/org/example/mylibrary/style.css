@@ -1,0 +1,118 @@
+.root {
+    -fx-background-color: #f0f0f0;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+.label.bold {
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+}
+
+.button {
+    -fx-background-color: #4a90e2;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+.button:hover {
+    -fx-background-color: #357abd;
+}
+
+.button:pressed {
+    -fx-background-color: #2a65a0;
+}
+
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-padding: 6px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+}
+
+.text-field:focused {
+    -fx-border-color: #4a90e2;
+    -fx-border-width: 2px;
+}
+
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-padding: 4px;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: #4a90e2;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #4a90e2;
+}
+
+.table-view .table-column {
+    -fx-alignment: CENTER_LEFT;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #d0e6ff;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #4a90e2;
+}
+
+.tab {
+    -fx-background-color: #a0c4f7;
+    -fx-padding: 8px 16px;
+}
+
+.tab:selected {
+    -fx-background-color: #4a90e2;
+    -fx-text-fill: white;
+}
+
+.menu-bar {
+    -fx-background-color: #4a90e2;
+}
+
+.menu-bar .menu .label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.menu-item .label {
+    -fx-text-fill: #333333;
+    -fx-font-size: 14px;
+}
+
+.alert {
+    -fx-background-color: white;
+}
+
+.alert .header-panel {
+    -fx-background-color: #4a90e2;
+}
+
+.alert .header-panel .label {
+    -fx-text-fill: white;
+}
